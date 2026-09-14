@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Money Manager — Expense Tracker by Unmet Labs</title>
+<meta name="description" content="Money Manager is a private, local-first expense tracker and budgeting app for Android by Unmet Labs.">
+<style>
+:root { color-scheme: light dark; --fg:#1a1c1a; --bg:#fbfdf9; --muted:#4a5350;
+        --rule:#d7e0d8; --accent:#14624a; --card:#eef3ee; }
+@media (prefers-color-scheme: dark) {
+  :root { --fg:#e2e4e0; --bg:#111412; --muted:#a8b3ae; --rule:#2b322d;
+          --accent:#7fd7b4; --card:#1b201d; }
+}
+* { box-sizing: border-box; }
+body { margin:0; padding:2.5rem 1.25rem 5rem; background:var(--bg); color:var(--fg);
+       font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif; }
+main { max-width: 46rem; margin: 0 auto; }
+.eyebrow { color:var(--accent); font-weight:650; letter-spacing:.12em;
+           text-transform:uppercase; font-size:.8rem; margin:0; }
+h1 { font-size:2.4rem; line-height:1.15; margin:.35rem 0 .75rem; letter-spacing:-.02em; }
+.lead { font-size:1.15rem; color:var(--muted); margin:0 0 2rem; }
+h2 { font-size:1.3rem; margin:2.5rem 0 .75rem; padding-top:1.25rem;
+     border-top:1px solid var(--rule); letter-spacing:-.01em; }
+ul { padding-left:1.25rem; }
+li { margin:.4rem 0; }
+strong { font-weight:650; }
+code { background:var(--card); padding:.12em .35em; border-radius:4px; font-size:.9em; }
+a { color:var(--accent); }
+.links { display:flex; flex-wrap:wrap; gap:.75rem; margin:0 0 1rem; padding:0; list-style:none; }
+.links a { display:inline-block; padding:.55rem 1rem; border:1px solid var(--rule);
+           border-radius:8px; text-decoration:none; font-weight:600; }
+footer { margin-top:3rem; padding-top:1.25rem; border-top:1px solid var(--rule);
+         color:var(--muted); font-size:.95rem; }
+</style>
+</head>
+<body>
+<main>
+<p class="eyebrow">Unmet Labs</p>
+<h1>Money Manager</h1>
+<p class="lead">Money Manager is a private expense tracker and budgeting app for Android. It shows you how much you can safely spend today, so you reach the end of the month without running short.</p>
+
+<ul class="links">
+  <li><a href="https://unmetlabs.github.io/money-manager-policy/">Privacy policy</a></li>
+  <li><a href="mailto:unmetlabs@gmail.com">Contact support</a></li>
+</ul>
+
+<h2>What the app does</h2>
+<ul>
+  <li><strong>Safe to spend</strong> — a daily figure based on your budget and how far through the month you are.</li>
+  <li><strong>Quick entry</strong> — log income, expenses and transfers in a few taps, across accounts and currencies.</li>
+  <li><strong>Budgets</strong> — see whether each category is ahead of or behind its pace.</li>
+  <li><strong>Reports</strong> — see where your money went, by category and over time.</li>
+  <li><strong>Scheduled payments and reminders</strong> — bills, subscriptions and paydays, with notifications before they are due.</li>
+  <li><strong>Savings goals</strong> and <strong>debts &amp; IOUs</strong> — track what you are saving for, what you owe and what you are owed.</li>
+  <li><strong>Backup and export</strong> — optional encrypted backup to your own Google Drive, plus CSV and JSON export.</li>
+</ul>
+
+<h2>Your data stays yours</h2>
+<p>Everything you enter is stored in an encrypted database on your device. There is no Money Manager account to create, and the app contains no advertising, analytics or tracking. Unmet Labs does not run a server that receives your financial data.</p>
+
+<h2>Why Money Manager asks to sign in with Google</h2>
+<p>Signing in with Google is optional and is used for one thing only: backing up your data to <strong>your own Google Drive</strong>. The app requests the <code>drive.appdata</code> permission, which lets it read and write its own backup files in a hidden app folder in your Drive. It cannot see, open or change any other file in your Google Drive.</p>
+<p>Your Google account's email address is shown in the app so you know which Drive the backup goes to. It is not sent to Unmet Labs. You can sign out at any time in Settings → Backup &amp; restore, and remove the app's access from your Google Account's security settings. The full details are in the <a href="https://unmetlabs.github.io/money-manager-policy/">privacy policy</a>.</p>
+
+<footer>
+  <p>Money Manager is published by Unmet Labs. Questions or support: <a href="mailto:unmetlabs@gmail.com">unmetlabs@gmail.com</a></p>
+</footer>
+</main>
+</body>
+</html>
